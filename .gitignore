@@ -1,0 +1,24 @@
+# dbt 
+dbt_packages/
+target/
+logs/
+profiles.yml
+
+#python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+dist/   
+build/
+
+#Airflow
+3_airflow/logs/
+3_airflow/airflow.dbt
+3_airflow/airflow.cfg
+3_airflow/webserver_config.py
+
+# OS
+.DS_Store
+Thumbs.db
